@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    /* padding: 0;
+    margin: 0; */
+}
+#heading{
+    text-align: center;
+    text-shadow: 1px 3px 0 #110a0a, 1px 13px 5px #0e0909, 0px 0px 0px rgba(206,89,55,0);
+color: #FFFFFF;
+background: #000000;
+width: 20%;
+margin-left: 40%;
+border-radius: 20px;
+height: 45px;
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2019/04/21/04/45/cat-4143414_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#chronometer-holder{
+    width: 350px;
+    height: 350px;
+    /* background-color: rgb(247, 230, 82); */
+    background: #F2F430;
+    background: -moz-linear-gradient(left, #F2F430 0%, #F9C32C 29%, #DA83FF 100%);
+    background: -webkit-linear-gradient(left, #F2F430 0%, #F9C32C 29%, #DA83FF 100%);
+    background: linear-gradient(to right, #F2F430 0%, #F9C32C 29%, #DA83FF 100%);
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 38.5%;
+    margin-top: 3%;    
+    opacity: 0.8;
+}
+#stopwatch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 10%; */
+    font-size: 2em;
+    font-weight: bolder;
+    /* padding: 55px; */
+}
+#buttons{
+    margin-top: -1%;
+    margin-left: 38.5%;
+}
+.controls:hover{
+    cursor: pointer;
+    color: rgb(240, 4, 4);
+
+}
+.controls{
+    border: 2px solid white;
+    background: #F2F430;
+    background: -moz-linear-gradient(left, #F2F430 0%, #F9C32C 29%, #DA83FF 100%);
+    background: -webkit-linear-gradient(left, #F2F430 0%, #F9C32C 29%, #DA83FF 100%);
+    background: linear-gradient(to right, #F2F430 0%, #F9C32C 29%, #DA83FF 100%);
+    padding: 8px;
+    width: 110px;
+    margin-left: 0.5%;
+    font-weight: 800;
+    font-size: 1em;
+    border-radius: 20px;
+}

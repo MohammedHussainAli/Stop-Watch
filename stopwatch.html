@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronometer</title>
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+    <h1 id="heading" style="color: white;">CHRONOMETER</h1>
+
+    <div id="chronometer-holder"><h2 id="timer" >&nbsp;&nbsp;&nbsp;Chronometer &#9200;</h2><br><br>
+    <div id="stopwatch">
+        <div id="zero">00:00:00</div>
+        <p id="hours-holder"></p>
+        <p id="minutes-holder"></p>
+        <p id="seconds-holder"></p>
+    </div>
+    </div><br><br>
+    <div id="buttons">
+        <button class="controls" id="start" onclick="start()">START</button>
+        <button class="controls" id="stop" onclick="stop()">STOP</button>
+        <button class="controls" id="reset" onclick="reset()">RESET</button>
+    </div>
+    <script src="stopwatch.js"></script>
+</body>
+</html>
